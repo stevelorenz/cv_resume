@@ -34,10 +34,6 @@ make
 make
 ```
 
-### Preview
-
-![](./template_cn_blue.png)
-
 # LICENSE
 
 **cv_resume** © [geekplux](https://github.com/geekplux), Released under the [MIT](./LICENSE) License.<br>
