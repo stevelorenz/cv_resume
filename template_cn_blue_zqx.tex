@@ -1,0 +1,175 @@
+%# -*- coding:utf-8 -*-
+%% start of file `template_cn_blue.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%%           2024-2025 Zuo Xiang (zuoxiang1991@icloud.com, xianglinks@gmail.com)
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper]{moderncv}
+
+
+\usepackage{fontspec,xunicode}
+\usepackage[slantfont,boldfont]{xeCJK}
+\usepackage{xcolor}
+
+
+\setmainfont{Times New Roman}  % The default English font
+\setCJKmainfont[BoldFont={WenQuanYi Micro Hei/Bold}]{WenQuanYi Micro Hei}
+% \defaultfontfeatures{Mapping=tex-text}
+% \XeTeXlinebreaklocale "zh"
+% \XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+
+
+%-----------------------xeCJK下设置中文字体------------------------------%
+\setCJKfamilyfont{song}{SimSun}  % 宋体 song
+\newcommand{\song}{\CJKfamily{song}}
+\setCJKfamilyfont{fs}{FangSong_GB2312}  % 仿宋2312 fs
+\newcommand{\fs}{\CJKfamily{fs}}
+\setCJKfamilyfont{yh}{Microsoft YaHei}  % 微软雅黑 yh
+\newcommand{\yh}{\CJKfamily{yh}}
+\setCJKfamilyfont{hei}{SimHei}  % 黑体  hei
+\newcommand{\hei}{\CJKfamily{hei}}
+\setCJKfamilyfont{hwxh}{STXihei}  % 华文细黑  hwxh
+\newcommand{\hwxh}{\CJKfamily{hwxh}}
+\setCJKfamilyfont{asong}{Adobe Song Std}  % Adobe 宋体  asong
+\newcommand{\asong}{\CJKfamily{asong}}
+\setCJKfamilyfont{ahei}{Adobe Heiti Std}  % Adobe 黑体  ahei
+\newcommand{\ahei}{\CJKfamily{ahei}}
+\setCJKfamilyfont{akai}{Adobe Kaiti Std}  % Adobe 楷体  akai
+\newcommand{\akai}{\CJKfamily{akai}}
+
+
+%------------------------------设置字体大小------------------------%
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}  % 初号
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}  % 小初号
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}  % 一号
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}  % 二号
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}  % 小二号
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}  % 三号
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}  % 四号
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}  % 小四号
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}  % 五号
+\newcommand{\subwuhao}{\fontsize{10pt}{\baselineskip}\selectfont}  % 次五号
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}  % 小五号
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}  % 六号
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}  % 七号
+
+
+% moderncv themes
+\moderncvtheme[blue]{classic}  % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+% \setlength{\hintscolumnwidth}{3cm}  % if you want to change the width of the column with the dates
+% \AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}  % required when changes are made to page layout lengths
+
+
+% personal data
+\familyname{张勤霞}
+\firstname{}
+\address{1987/01/08}{}  % optional, remove the line if not wanted
+\mobile{+86~15921610367}  % optional, remove the line if not wanted
+% \email{zuoxiang1991@icloud.com}  % optional, remove the line if not wanted
+% \homepage{Uni Page: https://cn.ifn.et.tu-dresden.de/chair/staff/zuo-xiang/}  % optional, remove the line if not wanted
+% \social[github]{GitHub: https://github.com/stevelorenz}
+% \extrainfo{%
+% 微信 WeChat ID:  \\
+% }
+
+%\photo[64pt]{}  % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+% \quote{China\TeX 您的LaTeX乐园，TeX\&\LaTeX 王国}  % optional, remove the line if not wante
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\vspace*{-10mm}
+
+\section{工作经历}
+
+\cventry{2015-2017}{上海宝格丽酒店}{中国~上海}{前台}{}
+{具备星级酒店一线服务经验，熟练掌握客房预订、入住退房办理、客户咨询等全流程服务。凭借高效专业的工作态度与扎实细致的业务能力，持续保持较高的客户满意度。}
+
+\cventry{2011-2015}{富士康电子厂}{中国~江苏~苏州}{文职岗位}{}
+{熟练处理文件归档、数据统计、行政事务协调等工作。凭借严谨细致的工作态度与较强的执行力，保障部门日常运营的顺畅性。}
+
+
+\section{教育经历}
+
+\cventry{2008-2011}{初中}{郑州东枫外国语学校~(中国~河南~郑州)}{}{}
+{顺利完成初中学业，具备良好的英语基础。}
+
+
+% section{技能}
+% \cvline{\textbf{英语}}{交流}
+% \cvline{\textbf{C++}}{流媒体，图像系统开发~(OpenCV, FFmpeg)}
+% \cvline{\textbf{Python}}{数据处理分析，机器学习~(Numpy, Pandas, Scikit-learn, Tensorflow)}
+% \cvline{\textbf{NFV/SDN}}{SDN控制器，Mininet，P4}
+
+
+% \subsection{Vocational}
+% \cventry{year--year}{Job title}{Employer}{City}{}{Description}  % arguments 3 to 6 are optional
+% \cventry{year--year}{Job title}{Employer}{City}{}{Description}  % arguments 3 to 6 are optional
+% \subsection{Miscellaneous}
+% \cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}% arguments 3 to 6 are optional
+
+% \section{Languages}
+% \cvlanguage{language 1}{Skill level}{Comment}
+% \cvlanguage{language 2}{Skill level}{Comment}
+% \cvlanguage{language 3}{Skill level}{Comment}
+
+% \section{Computer skills}
+% \cvcomputer{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+% \cvcomputer{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
+% \cvcomputer{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+
+% \section{Interests}
+% \cvline{篮球}{\small 体力与技巧}
+% \cvline{hobby 2}{\small Description}
+% \cvline{hobby 3}{\small Description}
+
+% \renewcommand{\listitemsymbol}{-}  % change the symbol for lists
+
+% \section{Extra 1}
+% \cvlistitem{Item 1}
+% \cvlistitem{Item 2}
+% \cvlistitem[+]{Item 3}  % optional other symbol% XeLaTeX can use any Mac OS X font. See the setromanfont command below.
+% Input to XeLaTeX is full Unicode, so Unicode characters can be typed directly into the source.
+
+% The next lines tell TeXShop to typeset with xelatex, and to open and save the source with Unicode encoding.
+
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+% \section{Extra 2}
+% \cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
+% \cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
+% \cvlistdoubleitem[\Neutral]{Item 3}{}
+
+%% Publications from a BibTeX file
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{publications}  % 'publications' is the name of a BibTeX file
+
+% \begin{thebibliography}{}
+% \bibitem[]{} 移动增强现实可视化综述[C]. ChinaVis 2017.
+% \end{thebibliography}
+
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-command-extra-options: "-shell-escape"
+%%% TeX-master: t
+%%% TeX-engine: xetex
+%%% End:
