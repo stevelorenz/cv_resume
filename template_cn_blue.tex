@@ -1,5 +1,5 @@
 %# -*- coding:utf-8 -*-
-%% start of file `template_en.tex'.
+%% start of file `template_cn_blue.tex'.
 %% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
 %%           2024-2025 Zuo Xiang (zuoxiang1991@icloud.com, xianglinks@gmail.com)
 %
@@ -12,13 +12,14 @@
 
 \usepackage{fontspec,xunicode}
 \usepackage[slantfont,boldfont]{xeCJK}
-\usepackage{xcolor}  % replace by the encoding you are using
+\usepackage{xcolor}
 
 
-\setmainfont{Times New Roman}  % 缺省英文字体.serif是有衬线字体sans serif无衬线字体
-\setCJKmainfont[ItalicFont={Kai}, BoldFont={Hei}]{STSong}  % 衬线字体 缺省中文字体为
-\setCJKsansfont{STSong}
-\setCJKmonofont{STFangsong}  % 中文等宽字体
+\setmainfont{Times New Roman}  % The default English font
+\setCJKmainfont[BoldFont={WenQuanYi Micro Hei/Bold}]{WenQuanYi Micro Hei}
+% \defaultfontfeatures{Mapping=tex-text}
+% \XeTeXlinebreaklocale "zh"
+% \XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
 
 
 %-----------------------xeCJK下设置中文字体------------------------------%
@@ -56,18 +57,8 @@
 \newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}  % 七号
 
 
-% \usepackage{fontawesome}
-% \setCJKmainfont[BoldFont={WenQuanYi Micro Hei/Bold}]{WenQuanYi Micro Hei}
-% \defaultfontfeatures{Mapping=tex-text}
-% \XeTeXlinebreaklocale "zh"
-% \XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
-
-
 % moderncv themes
 \moderncvtheme[blue]{classic}  % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-% \moderncvtheme[green]{classic}  % idem
-% \moderncvtheme[blue,roman]{hht}
-% character encoding
 
 
 % adjust the page margins
@@ -99,7 +90,7 @@
 %----------------------------------------------------------------------------------
 \begin{document}
 \maketitle
-\vspace*{-14mm}
+\vspace*{-10mm}
 
 \section{简介}
 
@@ -123,7 +114,7 @@
 
 \cventry{2018.03-2022.01}{德累斯顿工业大学}{德国~德累斯顿}{博士研究生(全职带薪)}{NFV,~SDN}
 {研究重点是通过 NFV 和 SDN 技术实现超低延时和低功耗的软件化~5G~网络。
-我的博士论文的题目是《Ultra Low-latency, Energy-efficient and Computing-centric Software Data Plane forNetwork Softwarization》。
+我的博士论文的题目是《Ultra Low-latency, Energy-efficient and Computing-centric Software Data Plane for Network Softwarization》。
 攻读博士学位期间，曾担任《网络编码原理》、《计算机网络系统》、《5G 通信网络系统》等硕士课程的助教工作，并负责指导和审查多篇硕士毕业论文。}
 
 \cventry{2016.10-2017.04}{爱立信~Eurolab}{德国~德累斯顿}{流媒体后端系统开发实习生}{Python}

@@ -1,11 +1,11 @@
 # cv_resume
 
-## README from Zuo Xiang
+## README from Zuo Xiang (zuoxiang)
 
 This repo is cloned from geekplux/cv_resume.
 感谢原作者提供这个优雅的简历模版。
 
-我在原作者的基础上修改了个人信息并加入了一个英文版简历: ./template_en_blue.tex。
+我在原作者的基础上修改了个人信息并加入了一个英文版简历 (TODO): ./template_en_blue.tex。
 
 TeX文件使用xelatex编译：
 

@@ -16,10 +16,11 @@
 
 
 % \setmainfont{Tahoma}
-\setmainfont{Times New Roman}  % 缺省英文字体.serif是有衬线字体sans serif无衬线字体
-\setCJKmainfont[ItalicFont={Kai}, BoldFont={Hei}]{STSong}  % 衬线字体 缺省中文字体为
-\setCJKsansfont{STSong}
-\setCJKmonofont{STFangsong}  % 中文等宽字体
+% \setmainfont{Times New Roman}  % 缺省英文字体.serif是有衬线字体sans serif无衬线字体
+% \setCJKmainfont[ItalicFont={Kai}, BoldFont={Hei}]{STSong}  % 衬线字体 缺省中文字体为
+% \setCJKsansfont{STSong}
+% \setCJKmonofont{STFangsong}  % 中文等宽字体
+
 %-----------------------xeCJK下设置中文字体------------------------------%
 \setCJKfamilyfont{song}{SimSun}  % 宋体 song
 \newcommand{\song}{\CJKfamily{song}}
@@ -54,12 +55,12 @@
 \newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}  % 六号
 \newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}  % 七号
 
-
 % \usepackage{fontawesome}
-% \setCJKmainfont[BoldFont={WenQuanYi Micro Hei/Bold}]{WenQuanYi Micro Hei}
-% \defaultfontfeatures{Mapping=tex-text}
-% \XeTeXlinebreaklocale "zh"
-% \XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\setCJKmainfont[BoldFont={WenQuanYi Micro Hei/Bold}]{WenQuanYi Micro Hei}
+\defaultfontfeatures{Mapping=tex-text}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+
 % moderncv themes
 \moderncvtheme[blue]{classic}  % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 % \moderncvtheme[green]{classic}  % idem
