@@ -8,7 +8,6 @@
 *.lof
 *.lot
 
-
 # bibliography related
 *-blx.bib
 *.run.xml
@@ -32,5 +31,5 @@ glossary.ist
 .\#
 \#*
 
-
 #project specific
+.DS_Store

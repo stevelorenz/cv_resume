@@ -14,6 +14,20 @@ TeX文件使用xelatex编译：
 make
 ```
 
+### Reminder
+
+#### Font
+
+目前会在Linux (Manjaro)和MacOS上build简历，所以尝试选择了一个在两个系统上都方便安装和使用的中文字体：Noto Sans CJK SC
+
+```bash
+# Install on Manjaro/Arch
+sudo pacman -S noto-fonts-cjk
+
+# Install on MacOS
+brew install --cask font-noto-sans-cjk-sc
+```
+
 ## Original README 原README
 
 更新：对默认的sty文件进行了修改，使得可以使用中文标点符号，更加规范。
